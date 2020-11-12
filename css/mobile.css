@@ -1,0 +1,199 @@
+@media screen and (max-width: 1024px) {
+    .window h1 {
+        font-size: 45px;
+    }
+    .form {
+        padding-left: 285px;
+        padding-right: 275px;
+    }
+
+    .checkbox:before {
+        width: 42px;
+        left: -48px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    
+}
+@media screen and (max-width: 768px) {
+    .window h1 {
+        font-size: 35px;
+    }
+    .form {
+        padding-left: 163px;
+        padding-right: 163px;
+    }
+    .checkbox:before {
+        width: 20px;
+        left: -25px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    
+}
+
+@media screen and (max-width: 414px) {
+    .window {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .window h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .window p {
+        font-family: "Roboto" ,sans-serif;
+        font-size: 19px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    br {
+        display: none;
+    }
+
+    #wizard {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    section h4 {
+        font-size: 15px;
+    }
+
+    .item p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .footer__info {
+        min-width: 100%;
+        align-items: flex-start;
+    }
+    .form {
+        width: 385px;
+        height: 428px;
+    }
+    .form h4 {
+        font-size: 22px;
+        line-height: 25px;
+        padding-bottom: 6px;
+    }
+    .wizard > .content {
+        min-height: 29em !important;
+    }
+    .form {
+        padding-top: 15px;
+        padding-bottom: 97px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 31px;
+        margin-bottom: 122px;
+    }
+
+    .form__button {
+        width: 345px;
+        height: 60px; 
+    }
+
+    .form__input {
+        height: 60px;
+    }
+
+    .test {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .checkbox:before {
+        display: none;
+    }
+
+    .steps {
+        padding-top: 20px;
+        margin-bottom: 25px;
+    }
+    .test__content h4 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .item {
+        margin-bottom: 15px;
+    }
+    .test {
+        height: 545px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .test {
+        width: 100%;
+    }
+    .form {
+        width: 345px;
+        padding-right: 40px;
+    }
+
+    .form__button,
+    .form__input {
+        width: 307px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .window h1 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .window p {
+        font-size: 17px;
+    }
+
+    .item {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .footer__rights,
+    .footer__politics,
+    .footer__text {
+        font-size: 12px;
+    }
+    .line {
+        margin-top: 0px;
+    }
+
+    .form {
+        width: 290px;
+        height: 395px;
+    }
+    .form__button {
+        width: 250px;
+        height: 50px;
+        padding: 10px 27px;
+    }
+    .form__input {
+        height: 50px;
+        width: 250px;
+    }
+    .form h4 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .checkbox {
+        width: 20px;
+        height: 20px;
+    }
+    .btn-next {
+        font-size: 12px;
+    }
+    .test {
+        height: 570px;
+    }
+
+
+}

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trader Test</title>
+  <meta name="description" content="Подходит ли вам трейдинг?">
+  <link rel="icon" type="image/png" href="./img/favicon.png">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/intlTelInput.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/jquery.steps.css">
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="window">
+            <h1>Подходит ли вам трейдинг?</h1>
+            <p>
+              Если вам нужен дополнительный заработок и вы хотите<br> попробовать себя в трейдинге, тогда скорее пройдите<br> наш небольшой тест. Всего 10 вопросов помогут<br> определить ваш потенциал.
+            </p>
+            <button id="run-test">ПРОЙТИ ТЕСТ</button>
+          </div>
+          <div class="test">
+            <ul class="steps">
+              <li class="question-1">
+                <a href="#question-1">
+                  <div class="checkbox checkbox-first checkbox-active"></div>
+                  <span>1</span>
+                </a>
+              </li>
+              <li class="question-2">
+                <a href="#question-2" >
+                  <div class="checkbox"></div>
+                  <span>2</span>
+                </a>
+              </li>
+              <li class="question-3">
+                <a href="#question-3">
+                  <div class="checkbox"></div>
+                  <span>3</span>
+                </a>
+              </li>
+              <li class="question-4">
+                <a href="#question-4">
+                  <div class="checkbox"></div>
+                  <span>4</span>
+                </a>
+              </li>
+              <li class="question-5">
+                <a href="#question-5">
+                  <div class="checkbox"></div>
+                  <span>5</span>
+                </a>
+              </li>
+              <li class="question-6">
+                <a href="#question-6">
+                  <div class="checkbox"></div>
+                  <span>6</span>
+                </a>
+              </li>
+              <li class="question-7">
+                <a href="#question-7">
+                  <div class="checkbox"></div>
+                  <span>7</span>
+                </a>
+              </li>
+              <li class="question-8">
+                <a href="#question-8">
+                  <div class="checkbox"></div>
+                  <span>8</span>
+                </a>
+              </li>
+              <li class="question-9">
+                <a href="#question-9">
+                  <div class="checkbox"></div>
+                  <span>9</span>
+                </a>
+              </li>
+              <li class="question-10">
+                <a href="#question-10">
+                  <div class="checkbox"></div>
+                  <span>10</span>
+                </a>
+              </li>
+            </ul>
+        
+            <div class="test__content" id="question-1">
+              <span class="step">Вопрос 1 с 10</span>
+              <h4>Почему вы хотите заняться трейдингом?</h4>
+                  <div class="items">
+                    <div class="item">
+                      <div class="number-q"><span>a</span></div>
+                      <p>Прочитал пару статей и захотел попробовать</p>
+                    </div>
+                    <div class="item">
+                      <div class="number-q"><span>б</span></div>
+                      <p>Хочу научиться торговать</p>
+                    </div>
+                    <div class="item">
+                      <div class="number-q"><span>в</span></div>
+                      <p>Планирую заработать на этом</p>
+                    </div>
+                    <div class="item">
+                      <div class="number-q"><span>г</span></div>
+                      <p>Это моё хобби</p>
+                    </div>
+                  </div>
+                  <div class="test__btns">
+                    <button class="btn-prev"><img src="img/prev.png" alt="btn-prev"></button>
+                    <button class="btn-next">Следующий вопрос <img src="img/next.png" alt="btn-next"></button>
+                  </div>
+            </div>
+            <div class="test__content" id="question-2">
+              <span class="step">Вопрос 2 с 10</span>
+                <h4>Устраивает ли вас нынешней доход?</h4>
+                <div class="items">
+                  <div class="item">
+                    <div class="number-q"><span>a</span></div>
+                    <p>Да, мне хватает зарплаты на все</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>б</span></div>
+                    <p>Нет, денег едва хватает на жизнь</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>в</span></div>
+                    <p>Пашу на трех работах, но этого мало</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>г</span></div>
+                    <p>Сейчас в поисках дополнительного заработка </p>
+                  </div>
+                </div>
+                <div class="test__btns">
+                  <button class="btn-prev"><img src="img/prev.png" alt="btn-prev"></button>
+                  <button class="btn-next">Следующий вопрос <img src="img/next.png" alt="btn-next"></button>
+                </div>
+            </div>
+            <div class="test__content" id="question-3">
+              <span class="step">Вопрос 3 с 10</span>
+              <h4>Готовы ли вы рискнуть частью своего капитала, чтобы приумножить его?</h4>
+              <div class="items">
+                <div class="item">
+                  <div class="number-q"><span>a</span></div>
+                  <p>Кто не рискует, тот не пьет шампанское</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>б</span></div>
+                  <p>Мне нужно это очень хорошо обдумать</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>в</span></div>
+                  <p>Только если небольшой частью</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>г</span></div>
+                  <p>Нет, не хочу рисковать</p>
+                </div>
+              </div>
+              <div class="test__btns">
+                <button class="btn-prev"><img src="img/prev.png" alt="btn-prev"></button>
+                <button class="btn-next">Следующий вопрос <img src="img/next.png" alt="btn-next"></button>
+              </div>
+            </div>
+            <div class="test__content" id="question-4">
+              <span class="step">Вопрос 4 с 10</span>
+              <h4>У вас есть свободные 100 тыс. рублей, ваши действия?</h4>
+              <div class="items">
+                <div class="item">
+                  <div class="number-q"><span>a</span></div>
+                  <p>Отложу на черный день</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>б</span></div>
+                  <p>Куплю новую технику/вещи</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>в</span></div>
+                  <p>Вложу в акции компаний</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>г</span></div>
+                  <p>Попробую увеличить эту сумму с помощью торговли на бирже</p>
+                </div>
+              </div>
+              <div class="test__btns">
+                <button class="btn-prev"><img src="img/prev.png" alt="btn-prev"></button>
+                <button class="btn-next">Следующий вопрос <img src="img/next.png" alt="btn-next"></button>
+              </div>
+            </div>
+            <div class="test__content" id="question-5">
+              <span class="step">Вопрос 5 с 10</span>
+                <h4>Сколько времени вы готовы тратить на трейдинг?</h4>
+                <div class="items">
+                  <div class="item">
+                    <div class="number-q"><span>a</span></div>
+                    <p>Час в день</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>б</span></div>
+                    <p>Пару часов в день</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>в</span></div>
+                    <p>Полноценный рабочий день</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>г</span></div>
+                    <p>Часов 5 в неделю</p>
+                  </div>
+                </div>
+                <div class="test__btns">
+                  <button class="btn-prev"><img src="img/prev.png" alt="btn-prev"></button>
+                  <button class="btn-next">Следующий вопрос <img src="img/next.png" alt="btn-next"></button>
+                </div>
+            </div>
+            <div class="test__content" id="question-6">
+              <span class="step">Вопрос 6 с 10</span>
+              <h4>Можете ли вы сосредоточиться на задаче?</h4>
+              <div class="items">
+                <div class="item">
+                  <div class="number-q"><span>a</span></div>
+                  <p>Я полностью собран</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>б</span></div>
+                  <p>Я выполняю все задания одновременно, чтобы быстрее освободиться</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>в</span></div>
+                  <p>Мне тяжело усидеть на одном месте</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>г</span></div>
+                  <p>Ненавижу монотонную работу</p>
+                </div>
+              </div>
+              <div class="test__btns">
+                <button class="btn-prev"><img src="img/prev.png" alt="btn-prev"></button>
+                <button class="btn-next">Следующий вопрос <img src="img/next.png" alt="btn-next"></button>
+              </div>
+            </div>
+            <div class="test__content" id="question-7">
+              <span class="step">Вопрос 7 с 10</span>
+                <h4>Вы пробовали когда-нибудь торговать?</h4>
+                <div class="items">
+                  <div class="item">
+                    <div class="number-q"><span>a</span></div>
+                    <p>Я прирожденный продавец</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>б</span></div>
+                    <p>Торговать не пробовал, но торгуюсь на высшем уровне</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>в</span></div>
+                    <p>Хотелось бы попробовать</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>г</span></div>
+                    <p>Мне такое неинтересно</p>
+                  </div>
+                </div>
+                <div class="test__btns">
+                  <button class="btn-prev"><img src="img/prev.png" alt="btn-prev"></button>
+                  <button class="btn-next">Следующий вопрос <img src="img/next.png" alt="btn-next"></button>
+                </div>
+            </div>
+            <div class="test__content" id="question-8">
+              <span class="step">Вопрос 8 с 10</span>
+              <h4>Представьте ситуацию, вы идете по улице и находите тысячу рублей. Когда вы подняли купюру и случайно посмотрели в сторону, то увидели ларек с лотереей “Русское лото”, где главный приз составляет 100 млн рублей. Ваши действия?</h4>
+              <div class="items">
+                <div class="item">
+                  <div class="number-q"><span>a</span></div>
+                  <p>Куплю на всю тысячу лотерейных билетов </p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>б</span></div>
+                  <p>Можно попробовать рискнуть</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>в</span></div>
+                  <p>Даже не знаю</p>
+                </div>
+                <div class="item">
+                  <div class="number-q"><span>г</span></div>
+                  <p>Положу деньги в свой карман и пойду дальше по делам</p>
+                </div>
+              </div>
+              <div class="test__btns">
+                <button class="btn-prev"><img src="img/prev.png" alt="btn-prev"></button>
+                <button class="btn-next">Следующий вопрос <img src="img/next.png" alt="btn-next"></button>
+              </div>
+            </div>
+            <div class="test__content" id="question-9">
+              <span class="step">Вопрос 9 с 10</span>
+                <h4>Обдумываете ли вы все несколько раз прежде, чем принять решение?</h4>
+                <div class="items">
+                  <div class="item">
+                    <div class="number-q"><span>a</span></div>
+                    <p>Всегда взвешиваю все “за” и “против”</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>б</span></div>
+                    <p>Все зависит от ситуации</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>в</span></div>
+                    <p>Быстро принимаю решение</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>г</span></div>
+                    <p>Будь что будет </p>
+                  </div>
+                </div>
+                <div class="test__btns">
+                  <button class="btn-prev"><img src="img/prev.png" alt="btn-prev"></button>
+                  <button class="btn-next">Следующий вопрос <img src="img/next.png" alt="btn-next"></button>
+                </div>
+            </div>
+            <div class="test__content" id="question-10">
+              <span class="step">Вопрос 10 с 10</span>
+                <h4>Сколько вы готовы инвестировать для начала?</h4>
+                <div class="items">
+                  <div class="item">
+                    <div class="number-q"><span>a</span></div>
+                    <p>100 долларов</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>б</span></div>
+                    <p>До 1000 долларов </p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>в</span></div>
+                    <p>До 5000 долларов</p>
+                  </div>
+                  <div class="item">
+                    <div class="number-q"><span>г</span></div>
+                    <p>До 10000 долларов</p>
+                  </div>
+                </div>
+                <div class="test__btns">
+                  <button class="btn-prev"><img src="img/prev.png" alt="btn-prev"></button>
+                  <button class="btn-next">Следующий вопрос <img src="img/next.png" alt="btn-next"></button>
+                </div>
+            </div>
+          
+
+
+          </div>
+
+          <form id="form-2" class="form">
+            <h4>Заполните форму и узнайте<br> ваш результат</h4>
+            <div class="form-input">
+
+                <input class="form-control form__input form__input--user-img" type="text" id="name-2" placeholder="Ваше имя" required>
+                <span class="msg-help-2 name-span-2" style="display:none;">Укажите имя, что бы мы знали как обращаться к Вам</span>
+
+
+                <input  class="form-control form__input form__input--email-img" type="email" id="mail-2" placeholder="Ваш Email" pattern="^[-._A-Za-z0-9]+@(?:[a-z0-9][-a-z0-9]+\.)+[a-z]{2,6}$" required>
+                <span class="msg-help-2 mail-span-2" style="display:none;">Укажите Ваш реальный Email</span>
+
+
+                <label for="phone-2" id="label-phone-2">
+                    <input  class="form-control form__input form__input--phone-img" type="tel" placeholder="Телефон" id="phone-2" maxlength="16" required>
+                    <span class="msg-help-2 tel-span-2" style="display:none;">Укажите номер в международном формате</span>
+                    <span id="valid-msg-2" class="hide">✓ Отлично</span>
+                    <span id="error-msg-2" class="hide"></span>
+                </label>
+
+              <input type="hidden" id="last_name-2" value=" ">
+              <input type="hidden" id="ip-2" value="<?= $_SERVER['REMOTE_ADDR']; ?>">
+              <input type="hidden" id="country-2" value="">
+              <input type="hidden" id="prefix-2" value="">
+              <input type="hidden" id="lang-2" value="RU">
+              <input type="hidden" id="utm_source-2" value="<?= $_GET['utm_source']; ?>">
+              <input type="hidden" id="utm_medium-2" value="<?=  $_GET['utm_medium']; ?>">
+              <input type="hidden" id="utm_campaign-2" value="<?= $_GET['utm_campaign']; ?>">
+              <input type="hidden" id="utm_term-2" value="<?= $_GET['utm_term'];?>">
+              <input type="hidden" id="utm_content-2" value="<?= $_GET['utm_content']; ?>">
+              <input type="hidden" id="description-2" value="">
+
+            </div>
+            <div class="form-button">
+              <button type="submit" id="button-2" class="sub btn_yellow form__button">
+                <span>Узнать результат</span>
+              </button>
+              <p class="msg"></p>
+            </div>
+
+          </form>
+          </div>
+        
+         
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+         <!-- logo -->
+        </div>
+        <div class="col-6 footer__info">
+          <p class="footer__text">Получите консультацию по телефону!</p>
+          <a href="tel:+7 495 009-04-67"><img src="./img/phone-icon.png" alt="phone-icon"><span>+7 495 009-04-67</span></a>
+          <p class="footer__text">с 10:00 до 19:00 Пн-Пт</p>
+        </div>
+      </div>
+      <div class="row line"></div>
+      <div class="row">
+        <div class="col-6">
+          <p class="footer__rights">© 2020. Все права защищены.</p>
+        </div>
+        <div class="col-6">
+          <a href="conf.pdf"><p class="footer__politics">Политика конфиденциальности</p></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  
+  
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.steps.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/intlTelInput.min.js"></script>
+  <script src="js/jquery.disableAutoFill.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/send.js"></script>
+</body>
+
+</html>
